@@ -7,14 +7,35 @@
     font-family: 'Fugaz One', normal; font-size: 40px;
 }
 /*AQUI TERMINAN LAS FUENTES*/
-.fondoVideo{
+.videoStyle{
+    margin-right: 2px;
+    margin-left: 7.5em;
+}
+
+.videoFrame:hover{
     border-radius: .5em;
-    margin-right: 1px;
-    box-shadow: .5em .5em rgba(16, 255, 26, 0.6);
+    box-shadow: 4px 4px rgba(16, 255, 26, 0.6);
     background-repeat: repeat-y;
 }
 
 .frameStyle{
     border-radius: .5em;
+}
 
+.fondoDiv{
+    border-radius: .5em;
+    background-repeat: repeat-y;
+    box-shadow: 4px 4px rgba(16, 255, 26, 0.6);
+}
+
+
+
+.footerStyle{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
