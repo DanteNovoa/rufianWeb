@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* aqui empiezan las fuentes*/ 
+.estiloFuente{ 
+    font-family: 'Fugaz One', cursive; font-size: 20px;
+       color: black;
+}
+.titulosFuente{
+    font-family: 'Fugaz One', normal; font-size: 40px;
+}
+/*AQUI TERMINAN LAS FUENTES*/
+.fondoVideo{
+    border-radius: .5em;
+    margin-right: 1px;
+    box-shadow: .5em .5em rgba(16, 255, 26, 0.6);
+    background-repeat: repeat-y;
+}
+
+.frameStyle{
+    border-radius: .5em;
+
+}
