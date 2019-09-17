@@ -1,0 +1,14 @@
+
+.list-group-item{
+    background-color: red;
+}
+
+.list-group-item.active{
+    background-color: greenyellow;
+
+}
+
+#audioDisp{
+    background-color: purple;
+
+}

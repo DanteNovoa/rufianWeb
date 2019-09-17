@@ -13,6 +13,7 @@ import { FooterComponent } from './componentes/shared/footer/footer.component';
 
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { ProduccionesComponent } from './componentes/producciones/producciones.component';
+import { BeatsPlayerComponent } from './componentes/shared/beats-player/beats-player.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProduccionesComponent } from './componentes/producciones/producciones.c
     BeatsAvailableComponent,
     FooterComponent,
     ContactoComponent,
-    ProduccionesComponent
+    ProduccionesComponent,
+    BeatsPlayerComponent
   ],
   imports: [
     BrowserModule,

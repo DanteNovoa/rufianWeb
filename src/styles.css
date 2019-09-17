@@ -1,41 +1,39 @@
-/* aqui empiezan las fuentes*/ 
-.estiloFuente{ 
-    font-family: 'Fugaz One', cursive; font-size: 20px;
-       color: black;
+/* aqui empiezan las fuentes*/
+.estiloFuente {
+  font-family: 'Fugaz One', cursive;
+  font-size: 20px;
+  color: black;
 }
-.titulosFuente{
-    font-family: 'Fugaz One', normal; font-size: 40px;
+
+.titulosFuente {
+  font-family: 'Fugaz One', normal;
+  font-size: 40px;
 }
+
 /*AQUI TERMINAN LAS FUENTES*/
-.videoStyle{
-    margin-right: 2px;
-    margin-left: 7.5em;
+.videoStyle {
+  margin-right: 2px;
+  margin-left: 7.5em;
 }
 
-.videoFrame:hover{
-    border-radius: .5em;
-    box-shadow: 4px 4px rgba(16, 255, 26, 0.6);
-    background-repeat: repeat-y;
+.bodyStyle {
+background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.frameStyle{
-    border-radius: .5em;
+.videoFrame:hover {
+  border-radius: .5em;
+  box-shadow: 4px 4px rgba(16, 255, 26, 0.6);
+  background-repeat: repeat-y;
 }
 
-.fondoDiv{
-    border-radius: .5em;
-    background-repeat: repeat-y;
-    box-shadow: 4px 4px rgba(16, 255, 26, 0.6);
+.frameStyle {
+  border-radius: .5em;
 }
 
-
-
-.footerStyle{
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
+.fondoDiv {
+background: red;
 }
+
