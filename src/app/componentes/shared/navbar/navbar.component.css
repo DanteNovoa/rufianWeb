@@ -1,3 +1,9 @@
 .header .navbar{
     background-color: transparent !important;
 }
+
+.estiloFuente {
+  font-family: 'Big Shoulders Display', bold;
+  font-size: 22px;
+  color: greenyellow !important;
+}

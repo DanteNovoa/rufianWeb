@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 //Rutas
 import { APP_ROUTING } from './app.routes';
 
+import { FormsModule } from "@angular/forms";
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './componentes/shared/navbar/navbar.component';
@@ -28,6 +30,7 @@ import { BeatsPlayerComponent } from './componentes/shared/beats-player/beats-pl
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     APP_ROUTING
   ],

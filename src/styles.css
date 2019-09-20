@@ -1,14 +1,7 @@
 /* aqui empiezan las fuentes*/
-.estiloFuente {
-  font-family: 'Fugaz One', cursive;
-  font-size: 20px;
-  color: black;
-}
 
-.titulosFuente {
-  font-family: 'Fugaz One', normal;
-  font-size: 40px;
-}
+
+
 
 /*AQUI TERMINAN LAS FUENTES*/
 .videoStyle {
@@ -17,9 +10,17 @@
 }
 
 .bodyStyle {
-background: #abbaab;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*background: #0F2027;  /* fallback for old browsers 
+background-image: url("https://cdn.pixabay.com/photo/2018/11/15/14/22/audio-3817292_1280.jpg");
+background-size: 100%;
+background-repeat: no-repeat;*/
+background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/*background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);*/ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 

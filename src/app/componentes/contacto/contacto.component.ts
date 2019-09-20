@@ -12,4 +12,10 @@ export class ContactoComponent implements OnInit {
   ngOnInit() {
   }
 
+  register(form){
+    console.log(form.value)
+    console.log(form.touched)
+    console.log(form.submitted)
+  }
+
 }
