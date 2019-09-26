@@ -1,0 +1,9 @@
+.botonCancion {
+  margin-bottom: .5em !important;
+  background-color: #007fff !important;
+  color: white !important;
+}
+
+.botonCancion:hover{
+    color: greenyellow !important;
+}

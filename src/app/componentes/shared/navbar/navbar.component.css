@@ -7,3 +7,13 @@
   font-size: 22px;
   color: greenyellow !important;
 }
+
+.estiloFuente:hover{
+  color: #007fff !important;
+
+}
+
+.navItemStyle{
+  background-color: black;
+  margin-left: 1em;
+}

@@ -6,3 +6,11 @@
     background: transparent;
     border: none;
 }
+
+.fondoTitulo{
+    background-color: black;
+}
+
+#tituloContacto{
+    margin-top: 1em;
+}

@@ -14,9 +14,9 @@
 background-image: url("https://cdn.pixabay.com/photo/2018/11/15/14/22/audio-3817292_1280.jpg");
 background-size: 100%;
 background-repeat: no-repeat;*/
-background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #FDFC47;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 /*background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 
@@ -26,10 +26,12 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);*/ /* W3C, IE 
 
 .videoFrame:hover {
   border-radius: .5em;
-  box-shadow: 4px 4px rgba(16, 255, 26, 0.6);
-  background-repeat: repeat-y;
+  box-shadow: 3px 6px 0px 8px black;
 }
 
+.videoFrame{
+  margin-top: 2em !important;
+}
 .frameStyle {
   border-radius: .5em;
 }
@@ -38,3 +40,8 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027);*/ /* W3C, IE 
 background: red;
 }
 
+.titulosFuente {
+  font-family: 'Big Shoulders Display', normal;
+  font-size: 70px;
+  color: greenyellow;
+}
