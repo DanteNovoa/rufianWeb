@@ -6,4 +6,19 @@
 .tituloHome{
   background-color: black;
 }
+.estrenoStyle{
+  background-color: black;
+  padding: .5rem;
+  box-shadow: 0px 20px #F5F137, 0px 20px #FFF24F, 0px 40px #BDF558;
+}
 
+.videoStyle:hover{
+
+}
+.videoStyle {
+  margin-right: 1rem;
+  background-color: #F5F137;
+}
+.videoContainer{
+  margin-top: 4rem;
+}

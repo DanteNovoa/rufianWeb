@@ -1,0 +1,22 @@
+
+.textoStyle{
+    color:greenyellow;
+}
+
+.inputStyle{
+    background: transparent;
+    border: none;
+}
+
+.inputStyle:focus{
+    border-color: greenyellow !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5) !important;
+}
+
+.fondoTitulo{
+    background-color: black;
+}
+
+#tituloContacto{
+    margin-top: 1em;
+}

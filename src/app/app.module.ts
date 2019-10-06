@@ -16,6 +16,8 @@ import { FooterComponent } from './componentes/shared/footer/footer.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { ProduccionesComponent } from './componentes/producciones/producciones.component';
 import { BeatsPlayerComponent } from './componentes/shared/beats-player/beats-player.component';
+import { SocialMediaComponent } from './componentes/shared/social-media/social-media.component';
+import { FormContactComponent } from './componentes/shared/form-contact/form-contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { BeatsPlayerComponent } from './componentes/shared/beats-player/beats-pl
     FooterComponent,
     ContactoComponent,
     ProduccionesComponent,
-    BeatsPlayerComponent
+    BeatsPlayerComponent,
+    SocialMediaComponent,
+    FormContactComponent
   ],
   imports: [
     BrowserModule,

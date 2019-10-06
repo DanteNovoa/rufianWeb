@@ -1,21 +1,29 @@
-<div class="col-sm-12">
-  <div class="col-sm-12 fondoTitulo">
-    <h1 id="tituloContacto" class="text-center titulosFuente">Algo Especial?</h1>
+<div class="contenedorContacto">
+  <div class="row mb-4">
+    <h1 class=" mt-5 mx-auto titulosFuente fondoContacto ">
+      Redes Sociales
+    </h1>
   </div>
-<div class="col-sm-12 d-flex justify-content-center">
-<form #myform="ngForm" (ngSubmit)="register(myform)" class="form form-register">
-  <div class="form-group">
-  <label class="textoStyle">Nombre</label>
-  <input name="email" id="register-email" type="email" placeholder="nombre" class="form-control inputStyle" ngModel required>
-  <br>
-  <label class="textoStyle" for=""> Mensaje</label>
-  <textarea class="form-control inputStyle" name="mensaje" id=""  placeholder="tu texto aqui" rows="5" ngModel required></textarea>
-  <br>
-  
-    <button type="button" class="btn btn-primary botonCancion">Primary</button>
 
-</div>
-</form>
+  <div class="row">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcomplexnews%2Fposts%2F1390307121122635&width=500"
+          width="500" height="462" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowTransparency="true" allow="encrypted-media"></iframe>
+
+      </div>
+    </div>
+    <div class="col">col 2</div>
+    <div class="col">col 3</div>
+    <div class="w-100"></div>
+    <div class="col">col 4</div>
+    <div class="col">col 5</div>
+    <div class="col">col 6 </div>
+
+  </div>
 </div>
 
-</div>
+
+<app-form-contact></app-form-contact>

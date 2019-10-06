@@ -1,0 +1,11 @@
+.fondoProducciones{
+    background-color: black;
+    padding: .5rem;
+}
+
+.modalStyle:hover{
+    opacity: 0.8 !important;
+    cursor: pointer;
+  filter: alpha(opacity=100) !important;
+  transform: scale(1.1);
+}

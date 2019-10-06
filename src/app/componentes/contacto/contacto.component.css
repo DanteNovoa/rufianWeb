@@ -1,16 +1,5 @@
-.textoStyle{
-    color:greenyellow;
-}
-
-.inputStyle{
-    background: transparent;
-    border: none;
-}
-
-.fondoTitulo{
-    background-color: black;
-}
-
-#tituloContacto{
-    margin-top: 1em;
+.fondoContacto {
+  background-color: black;
+  padding: .5rem;
+  box-shadow: 0px 20px #F5F137, 0px 20px #FFF24F, 0px 40px #BDF558;
 }

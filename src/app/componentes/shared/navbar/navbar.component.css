@@ -5,11 +5,11 @@
 .estiloFuente {
   font-family: 'Big Shoulders Display', bold;
   font-size: 22px;
-  color: greenyellow !important;
+  color: whitesmoke !important;
 }
 
 .estiloFuente:hover{
-  color: #007fff !important;
+  color: #F5F137 !important;
 
 }
 
